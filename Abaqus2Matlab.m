@@ -1,4 +1,4 @@
-s = fileread('Abaqus.inp');
+s = fileread('Abaqus.inp');     % save Abaqus inp file in current directory and change name here
 q = split(s,'*');
 h = strfind(s,'*');
 k = strfind(s,'*Node');
